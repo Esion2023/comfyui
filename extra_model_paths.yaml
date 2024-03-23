@@ -19,7 +19,7 @@
 #your base path should be either an existing comfy install or a central folder where you store all of your models, loras, etc.
 
 comfyui:
-    base_path: /kaggle/temp/
+    base_path: /kaggle/working/ComfyUI/esion
     checkpoints: models/checkpoints/
     clip: models/clip/
     clip_vision: models/clip_vision/
