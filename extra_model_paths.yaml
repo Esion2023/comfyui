@@ -1,34 +1,34 @@
 #Rename this to extra_model_paths.yaml and ComfyUI will load it
 #config for a1111 ui
 #all you have to do is change the base_path to where yours is installed
-#a111:
-#    base_path:
-#    checkpoints: /kaggle/temp/models/checkpoints
-#    configs: /kaggle/temp/models/configs
-#    vae: /kaggle/temp/models/vae
-#    loras: /kaggle/temp/models/loras
-#    upscale_models: /kaggle/temp/models/upscale_models
-#    embeddings: /kaggle/temp/embeddings
-#    hypernetworks: /kaggle/temp/models/hypernetworks
-#    controlnet: /kaggle/temp/models/controlnet
-#    clip: /kaggle/temp/models/clip
-#    unet: /kaggle/temp/models/unet
-#    clip_vision: /kaggle/temp/models/clip_vision
-#    embeddings: /kaggle/temp/models/embeddings
+# a111:
+    # base_path:
+    # checkpoints: /kaggle/working/ComfyUI/esion
+    # configs: configs
+    # vae: vae
+    # loras: loras
+    # upscale_models: upscale_models
+    # embeddings: /kaggle/temp/embeddings
+    # hypernetworks: hypernetworks
+    # controlnet: controlnet
+    # clip: clip
+    # unet: unet
+    # clip_vision: clip_vision
+    # embeddings: embeddings
 #config for comfyui
 #your base path should be either an existing comfy install or a central folder where you store all of your models, loras, etc.
 
 comfyui:
-    base_path: /kaggle/working/ComfyUI/esion
-    checkpoints: models/checkpoints/
-    clip: models/clip/
-    clip_vision: models/clip_vision/
-    configs: models/configs/
-    controlnet: models/controlnet/
-    embeddings: models/embeddings/
-    loras: models/loras/
-    upscale_models: models/upscale_models/
-    vae: models/vae/
+   base_path: /kaggle/working/ComfyUI/esion
+   checkpoints: checkpoints
+   clip: clip
+   clip_vision: clip_vision
+   configs: configs
+   controlnet: controlnet
+   embeddings: embeddings
+   loras: loras
+   upscale_models: upscale_models
+   vae: vae
 
 #other_ui:
 #    base_path: path/to/ui
